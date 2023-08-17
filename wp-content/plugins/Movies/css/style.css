@@ -1,0 +1,10 @@
+/*Movies*/
+.archive article {
+    padding: 20px;
+    border: 1px solid rgba(255,255,255,.5);
+    margin: 0 0 10px;
+}
+
+.single-movies article h1 {
+    color: #00ff00;
+}

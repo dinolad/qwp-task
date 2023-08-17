@@ -1,0 +1,105 @@
+/*
+Theme Name: Q Task
+Author: Dino Ladika
+Description: A basic blank WordPress theme for Q Task
+Version: 1.0
+*/
+
+::selection {
+  color: #000;
+  background: #00ff00;
+}
+
+body {
+	background: #000;
+	margin: 0;
+	padding: 0 15px;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+	color: #FFF;
+}
+
+a {
+	color: #00ff00;
+	transition: 300ms;
+}
+
+a:hover {
+	color: #0ee3fe;
+}
+
+.form {
+	width: 100%;
+  max-width: 300px;
+  background: transparent;
+  padding: 30px 50px 50px;
+  margin: 100px auto 0;
+  border: 1px solid rgba(255, 255, 255, .2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form img {
+	width: 70px;
+	height: auto;
+  margin-bottom: 20px;
+}
+
+form {
+  width: 100%;
+  font-size: 9px;
+	color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	border: 1px solid rgba(255,255,255,.5);
+	border-radius: 0;
+	background: transparent;
+	color: #00ff00;
+	text-align: center;
+	padding: 6px 10px;
+	transition: 500ms;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus, 
+input[type="password"]:focus {
+	outline: 0;
+	border-color: #00ff00;
+}
+
+input[type="submit"] {
+	font-size: 11px;
+  font-weight: 700;
+	text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #000;
+  background: #00ff00;
+  padding: 10px;
+  margin: 5px 0 0;
+  cursor: pointer;
+  border: none;
+  transition: none;
+}
+
+input[type="submit"]:hover {
+	background: linear-gradient(90deg, rgba(0,255,0,1) 0%, rgba(12,227,255,1) 100%);
+}
+
+footer p {
+	color: rgba(255, 255, 255, .5);
+	padding: 30px 0;
+}
